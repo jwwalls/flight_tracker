@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: #011212;
+    color: #007F80;
+    gap: 20px;
+    
+}
+.title{
+    font-size: 50px;
+    color: white;
+    margin: 5px;
+}
+.logo{
+    color: #007F80;
+}
+.flight{
+   margin-left: 5px;
+   margin-top: 20px;
+}
+.flightText{
+    width: 80%;
+    border-radius: 10%;
+    border-radius: 5%;
+}
+.location{
+    
+}
+.locationText{
+
+}
+.goBtn{
+    display: flex;
+    justify-content: center;
+}
+.go{
+    height: 5vh;
+    width: 50%;   
+}
+.geo{
+    height: 15px;
+    width: 15px;
+}
+#map {
+    height: 500px;
+    width: 100%;
+  }
